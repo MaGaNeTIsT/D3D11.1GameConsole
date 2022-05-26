@@ -7,7 +7,8 @@
 #include <stdio.h>
 #include <assert.h>
 #include <io.h>
-#include <strstream>
+//#include <strstream>
+#include <typeinfo>
 #include <string>
 #include <vector>
 #include <list>

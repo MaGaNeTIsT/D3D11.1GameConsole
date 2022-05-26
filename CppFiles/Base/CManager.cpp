@@ -67,10 +67,12 @@ void CManager::CalculateFrameStats()
 	{
 		FLOAT fps = static_cast<FLOAT>(frameCnt);
 		FLOAT mspf = 1000.f / fps;
-		std::strstream outs;
-		outs << "  DirectX113DGame  " << "    FPS: " << fps
-			<< "    Frame Time: " << mspf << "(ms)" << std::ends;
-		SetWindowText(GetMainWindowHandle(), outs.str());
+		//std::strstream outs;
+		//outs << "  DirectX113DGame  " << "    FPS: " << fps
+		//	<< "    Frame Time: " << mspf << "(ms)" << std::ends;
+		std::string outs;
+		outs.append("  DirectX113DGame      FPS: " + std::to_string(fps) + "    Frame Time: " + std::to_string(mspf) + "(ms)\n");
+		SetWindowText(GetMainWindowHandle(), outs.c_str());
 		frameCnt = 0;
 		timeElapsed += 1.f;
 	}
