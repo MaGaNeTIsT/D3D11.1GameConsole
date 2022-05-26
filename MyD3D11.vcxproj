@@ -134,6 +134,7 @@
     <ClInclude Include="Headers\Object\CRayMarching.h" />
     <ClInclude Include="Headers\Object\CScreenPolygon2D.h" />
     <ClInclude Include="Headers\Object\CSky.h" />
+    <ClInclude Include="Headers\Physics\CPhysics.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppFiles\Base\CBaseType.cpp" />
@@ -164,6 +165,7 @@
     <ClCompile Include="CppFiles\Object\CRayMarching.cpp" />
     <ClCompile Include="CppFiles\Object\CScreenPolygon2D.cpp" />
     <ClCompile Include="CppFiles\Object\CSky.cpp" />
+    <ClCompile Include="CppFiles\Physics\CPhysics.cpp" />
     <ClCompile Include="Entry\MyMain.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -262,7 +264,7 @@
       <ConformanceMode>false</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>.\ThridParty\Jolt\;.\ThridParty\Jolt\Jolt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\ThridParty\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

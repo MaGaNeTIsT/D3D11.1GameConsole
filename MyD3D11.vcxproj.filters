@@ -47,6 +47,15 @@
     <Filter Include="Entry">
       <UniqueIdentifier>{3799fcee-0a03-431c-8755-61c0a634360c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{80c11bd2-f5ee-4412-9dcd-f8f43bf3ca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\CppFiles">
+      <UniqueIdentifier>{aa8fb6c3-1675-487e-8778-6673deb89af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Headers">
+      <UniqueIdentifier>{dc52bd7a-c60f-4f09-913a-d510651a34ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="HLSLResources\RenderPipeline\EngineGBufferResolvePS.hlsl">
@@ -168,6 +177,9 @@
     <ClInclude Include="Headers\Base\CTextureManager.h">
       <Filter>Base\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="Headers\Physics\CPhysics.h">
+      <Filter>Physics\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppFiles\Base\CInput.cpp">
@@ -256,6 +268,9 @@
     </ClCompile>
     <ClCompile Include="CppFiles\Base\CTextureManager.cpp">
       <Filter>Base\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CppFiles\Physics\CPhysics.cpp">
+      <Filter>Physics\CppFiles</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
