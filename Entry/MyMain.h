@@ -27,6 +27,9 @@ using namespace DirectX;
 //#pragma comment (lib, "libxml2-mt.lib")
 //#pragma comment (lib, "zlib-mt.lib")
 
+#include <Jolt.h>
+#pragma comment (lib,"Jolt.lib")
+
 #include "../Headers/Base/CTimer.h"
 
 
