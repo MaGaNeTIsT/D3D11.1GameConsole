@@ -134,7 +134,7 @@
     <ClInclude Include="Headers\Object\CRayMarching.h" />
     <ClInclude Include="Headers\Object\CScreenPolygon2D.h" />
     <ClInclude Include="Headers\Object\CSky.h" />
-    <ClInclude Include="Headers\Physics\CPhysics.h" />
+    <ClInclude Include="Headers\Physics\CPhysicsManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppFiles\Base\CBaseType.cpp" />
@@ -165,7 +165,7 @@
     <ClCompile Include="CppFiles\Object\CRayMarching.cpp" />
     <ClCompile Include="CppFiles\Object\CScreenPolygon2D.cpp" />
     <ClCompile Include="CppFiles\Object\CSky.cpp" />
-    <ClCompile Include="CppFiles\Physics\CPhysics.cpp" />
+    <ClCompile Include="CppFiles\Physics\CPhysicsManager.cpp" />
     <ClCompile Include="Entry\MyMain.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

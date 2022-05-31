@@ -177,7 +177,7 @@
     <ClInclude Include="Headers\Base\CTextureManager.h">
       <Filter>Base\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Headers\Physics\CPhysics.h">
+    <ClInclude Include="Headers\Physics\CPhysicsManager.h">
       <Filter>Physics\Headers</Filter>
     </ClInclude>
   </ItemGroup>
@@ -269,7 +269,7 @@
     <ClCompile Include="CppFiles\Base\CTextureManager.cpp">
       <Filter>Base\CppFiles</Filter>
     </ClCompile>
-    <ClCompile Include="CppFiles\Physics\CPhysics.cpp">
+    <ClCompile Include="CppFiles\Physics\CPhysicsManager.cpp">
       <Filter>Physics\CppFiles</Filter>
     </ClCompile>
   </ItemGroup>
